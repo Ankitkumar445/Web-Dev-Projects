@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>eBay Retro </title>
+    <style>
+       
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial, sans-serif;
+        }
+
+        body {
+            background-color: #ffffff;
+            color: #000;
+        }
+
+     
+        .container {
+            width: 1000px;
+            margin: 0 auto;
+        }
+
+     
+        .header {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding-left: 10px;
+            padding-bottom: 10px;
+            padding-right: 10px;
+
+        
+        }
+
+        .logo {
+            font-size: 90px;
+            font-weight: bold;
+            display: flex;
+            align-items: baseline;
+        }
+
+        .logo span {
+            color: red;
+        }
+        .logo span:nth-child(2) {
+            color: blue;
+        }
+        .logo span:nth-child(3) {
+            color: yellow;
+        }
+        .logo span:nth-child(4) {
+            color: green;
+        }
+
+        .small-logo {
+            font-size: 15px;
+            color: black;
+            position: relative;
+            top: 10px;
+            margin-left: 3px;
+        }
+        .top-links {
+            display: flex;
+            justify-content: flex-end;
+           
+        }
+
+        .top-links a {
+            color: blue;
+            text-decoration: none;
+            margin-left: 10px;
+            margin-right: 10px;
+        }
+        .top-links a:hover {
+            text-decoration: underline;
+        }
+        .header nav a {
+        padding: 10px;
+            border: 1px solid black;
+            text-decoration: none;
+            color: black;
+            margin-right: 15px;
+            font-size: 19px;
+        }
+
+        .categories {
+            display: inline-block;
+            vertical-align: top;
+            width: 200px;
+            background-color: #ffd700;
+            padding: 10px;
+        }
+        
+        .categories a {
+            display: block;
+            color: blue;
+            font-size: 14px;
+            margin: 8px 0;
+            text-decoration: none;
+        }
+
+        .categories a:hover {
+            text-decoration: underline;
+        }
+
+        .categories-title {
+            font-weight: bold;
+            font-size: 18px;
+            margin-bottom: 10px;
+        }
+
+        .featured {
+            display: inline-block;
+            vertical-align: top;
+            width: 580px;
+            margin-left: 20px;
+            font-size: 14px;
+        }
+
+        .featured-title {
+            background-color: #80c342;
+            font-weight: bold;
+            padding: 5px;
+            color: white;
+        }
+
+        .featured a {
+            color: blue;
+            text-decoration: none;
+            display: block;
+            margin: 8px 0;
+        }
+
+        .featured a:hover {
+            text-decoration: underline;
+        }
+
+        .welcome-section {
+            background-color: #ff6060;
+            color: white;
+            padding: 10px;
+            margin-top: 20px;
+            font-size: 14px;
+        }
+
+        .welcome-section a {
+            color: blue;
+            text-decoration: none;
+        }
+
+        .welcome-section a:hover {
+            text-decoration: underline;
+        }
+
+        .cool-features {
+            background-color: #00a8ff;
+            color: white;
+            padding: 10px;
+            margin-top: 20px;
+            font-size: 14px;
+        }
+
+        .stats {
+            background-color: #e0e0e0;
+            padding: 10px;
+            margin-top: 20px;
+            font-size: 14px;
+            border: 1px solid #ccc;
+        }
+
+        .stats b {
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="top-links">
+            <a href="#">home</a>
+            <span>|</span>
+            <a href="#">my eBay</a>
+            <span>|</span>
+            <a href="#">site map</a>
+        </div>
+        <div class="header">
+            <div class="logo">
+                <span>e</span><span>b</span><span>a</span><span>Y</span>
+                <div class="small-logo">
+                    <sub>Tm</sub>
+                </div>
+            </div>
+            
+            <nav>
+                <a href="#">Browse</a>
+                <a href="#">Sell</a>
+                <a href="#">Services</a>
+                <a href="#">Search</a>
+                <a href="#">Help</a>
+                <a href="#">Community</a>
+            </nav>
+        </div>
+        
+        <div class="categories">
+            <div class="categories-title">categories</div>
+            <a href="#">Automotive</a>
+            <a href="#">Antiques</a>
+            <a href="#">Books, Movies, Music</a>
+            <a href="#">Coins & Stamps</a>
+            <a href="#">Collectibles</a>
+            <a href="#">Computers</a>
+            <a href="#">Dolls, Figures</a>
+            <a href="#">Jewelry, Gemstones</a>
+            <a href="#">Photo & Electronics</a>
+            <a href="#">Pottery & Glass</a>
+            <a href="#">Sports Memorabilia</a>
+            <a href="#">Toys, Bean Bag Plush</a>
+            <a href="#">Miscellaneous</a>
+        </div>
+
+        <div class="featured">
+            <div class="featured-title">featurEd</div>
+            <a href="#">Canon Bjc 2000 4000 5000 Series Color 5.95</a>
+            <a href="#">Mel Torme's 1963 Rolls Royce Silver Cloud III</a>
+            <a href="#">WebTV/Dish Network Combo-~DishPlayer~</a>
+            <a href="#">M Jordan Basketball *From The Restaurant*</a>
+            <a href="#">Cobra 360 Vg-2 Radar With Digital Readout!</a>
+            <a href="#">Canon 2000/4000/5000 Series Color Cartridge</a>
+        </div>
+
+        <div class="welcome-section">
+            <b>Welcome new users</b>
+            <br>
+            <a href="#">What is eBay?</a> | <a href="#">How do I bid?</a> | <a href="#">How do I sell?</a>
+            <br>
+            Register, it's free!
+        </div>
+
+        <div class="cool-features">
+            <b>cool features</b>
+            <p>Scare up everything you can conjure up for a bewitching Halloween-O-rama!</p>
+        </div>
+
+        <div class="stats">
+            <b>stats</b>
+            <p>2,967,077 items for sale in 2,076 categories now!</p>
+            <p>Over <b>1.5 billion</b> page views per month!</p>
+        </div>
+    </div>
+</body>
+</html>
